@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Finance SaaS Platform
 
-## Getting Started
+This project was made with the “Code With Antonio” tutorial.
 
-First, run the development server:
+Welcome to the Finance SaaS Platform project! This comprehensive README will guide you through the project setup, key features, technologies used, and how to contribute. This project aims to provide a robust financial management system with extensive functionalities, including income and expense tracking, transaction categorization, CSV import, bank account connectivity, and monetization options.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. [Key Features](#key-features)
+2. [Technologies Used](#technologies-used)
+3. [Project Setup](#project-setup)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Screenshots/Demo](#screenshotsdemo)
+8. [Prerequisites](#prerequisites)
+9. [Folder Structure](#folder-structure)
+10. [Acknowledgments](#acknowledgments)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Key Features
+- 📊 **Interactive Financial Dashboard**: Visualize financial data with various chart types.
+- 🔁 **Changeable Chart Types**: Customize the way financial data is displayed.
+- 🗓 **Account and Date Filters**: Filter transactions by account and date.
+- 💹 **Detailed Transactions Table**: View and manage individual transactions.
+- ➕ **Form to Add Transactions**: Easily add new transactions.
+- 🧩 **Customizable Select Components**: Tailor select components to fit user needs.
+- 💵 **Income and Expense Toggle**: Switch between income and expense views.
+- 🔄 **CSV Transaction Imports**: Import transactions from CSV files.
+- 🔥 **API via Hono.js**: Efficient API management using Hono.js.
+- 🪝 **State Management via Tanstack React Query**: Manage application state seamlessly.
+- 🔗 **Bank Account Connections with Plaid**: Connect and manage bank accounts.
+- 💳 **Premium Upgrades via Lemon Squeezy**: Monetize the platform with premium features.
+- 🔐 **Authentication via Clerk (Core 2)**: Secure user authentication.
+- 🗑 **Bulk Delete and Search in Transactions**: Perform bulk operations and search transactions.
+- ⚙️ **Bank Disconnection and Subscription Management**: Manage bank connections and subscriptions.
+- 👤 **User Settings Customization**: Personalize user settings.
+- 🌐 **Built with Next.js 14**: Leverage the latest features of Next.js.
+- 🎨 **Styled with TailwindCSS and Shadcn UI**: Modern and responsive UI design.
+- 💾 **PostgreSQL & Drizzle ORM**: Robust database management.
+- 🚀 **Deployed on Vercel**: Effortless deployment and scaling.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Technologies Used
+- **[Clerk](https://clerk.com)**: Authentication solution.
+- **[Hono](https://hono.dev)**: Lightweight API framework.
+- **[Drizzle ORM](https://orm.drizzle.team)**: ORM for database interactions.
+- **[Neon DB](https://neon.tech)**: Scalable cloud database.
+- **[Logoipsum](https://logoipsum.com)**: Placeholder logos for branding.
+- **Next.js 14**: React framework for server-side rendering.
+- **TailwindCSS**: Utility-first CSS framework.
+- **Shadcn UI**: Component library for modern UI.
+- **Tanstack React Query**: Data-fetching library for React.
+- **Plaid**: Financial data connectivity.
+- **Lemon Squeezy**: E-commerce platform for selling digital products.
+- **Vercel**: Deployment platform.
